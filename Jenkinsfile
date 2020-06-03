@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/harsha2603/warrepo.git'
+                .git'
             }
         }
             stage('Build'){
